@@ -1,4 +1,4 @@
-# JavaScript Stack from Scratch
+# JavaScript Stack from Scratch - FR
 
 [![Build Status](https://travis-ci.org/verekia/js-stack-from-scratch.svg?branch=master)](https://travis-ci.org/verekia/js-stack-from-scratch)
 [![Release](https://img.shields.io/github/release/verekia/js-stack-from-scratch.svg?style=flat-square)](https://github.com/verekia/js-stack-from-scratch/releases)
@@ -16,23 +16,24 @@
 [![Webpack](/img/webpack-padded-90.png)](https://webpack.github.io/)
 [![Bootstrap](/img/bootstrap-padded-90.png)](http://getbootstrap.com/)
 
-Welcome to my modern JavaScript stack tutorial: **JavaScript Stack from Scratch**.
+Bienvenue dans mon tutoriel moderne pour la pile JavaScript: **JavaScript Stack from Scratch**. ["EN FRANCAIS !"]
+> **La version originale de ce tutoriel est disponible [en anglais](https://github.com/verekia/js-stack-from-scratch/), nous tâcherons de maintenir au mieux à jour la traduction au travers des évolutions à venir**
 
-> 🎉 **This is the V2 of the tutorial, major changes happened since the 2016 release. Check the [Change Log](/CHANGELOG.md)!**
+> 🎉 **Ceci est la version V2 de ce tutoriel, des changements majeurs sont apparus depuis la version 2016. Vérifiez le [Log de suivi des changement](/CHANGELOG.md)!**
 
-This is a straight-to-the-point guide to assembling a JavaScript stack. It requires some general programming knowledge, and JavaScript basics. **It focuses on wiring tools together** and giving you the **simplest possible example** for each tool. You can see this tutorial as *a way to write your own boilerplate from scratch*. Since the goal of this tutorial is to assemble various tools, I do not go into details about how these tools work individually. Refer to their documentation or find other tutorials if you want to acquire deeper knowledge in them.
+Il s'agit d'un guide direct pour le montage d'une pile JavaScript. Il nécessite une certaine connaissance de programmation générale et des bases de JavaScript. ** Il se concentre sur les outils d'interconnexion entre technologies ** et vous fournis l' ** exemple le plus simple possible ** pour chaque outil. Vous pouvez voir ce didacticiel comme * un moyen d'écrire votre propre modèle à partir de zéro *. Étant donné que le but de ce didacticiel est de rassembler divers outils, je n'entre pas dans les détails sur la façon dont ces outils fonctionnent individuellement. Reportez-vous à leur documentation ou trouvez d'autres tutoriels si vous souhaitez acquérir une connaissance plus approfondie de chacun eux.
 
-You don't need to use this entire stack if you build a simple web page with a few JS interactions of course (a combination of Browserify/Webpack + Babel + jQuery is enough to be able to write ES6 code in different files), but if you want to build a web app that scales, and need help setting things up, this tutorial will work great for you.
+Vous n'avez pas besoin d'utiliser cette pile entière si vous construisez une page Web simple avec quelques interactions JS bien sûr (une combinaison de Browserify / Webpack + Babel + jQuery est suffisante pour pouvoir écrire le code ES6 dans différents fichiers), mais Si vous voulez construire une application Web qui évolue, et que vous avez besoin d'aide pour configurer les choses, ce tutoriel fonctionnera très bien pour vous.
 
-A big chunk of the stack described in this tutorial uses React. If you are beginning and just want to learn React, [create-react-app](https://github.com/facebookincubator/create-react-app) will get you up and running with a React environment very quickly with a pre-made configuration. I would for instance recommend this approach to someone who arrives in a team that's using React and needs to catch up with a learning playground. In this tutorial you won't use a pre-made configuration, because I want you to understand everything that's happening under the hood.
+Un gros morceau de la pile décrit dans ce tutoriel utilise React. Si vous commencez et que vous voulez juste apprendre React, [create-react-app](https://github.com/facebookincubator/create-react-app) vous mettra en route avec un environnement React très rapidement avec un pré-configuration. Je recommanderais par exemple cette approche à quelqu'un qui arrive dans une équipe qui utilise React et a besoin de rattraper au travers d'un terrain de jeu d'apprentissage. Dans ce tutoriel, vous n'utiliserez pas de configuration pré-faite, car je veux que vous compreniez tout ce qui se passe sous le capot.
 
-Code examples are available for each chapter, and you can run them all with `yarn && yarn start`. I recommend writing everything from scratch yourself by following the **step-by-step instructions** though.
+Des exemples de code sont disponibles pour chaque chapitre, et vous pouvez tous les exécuter avec `yarn && yarn start`. Cependant je recommande d'écrire tout à partir de zéro vous-même en suivant les ** instructions étape-par-étape **.
 
-Final code available in the [JS-Stack-Boilerplate repository](https://github.com/verekia/js-stack-boilerplate), and in the [releases](https://github.com/verekia/js-stack-from-scratch/releases). There is a [live demo](https://js-stack.herokuapp.com/) too.
+Le code final est disponible dans le [Référentiel JS-Stack-Boilerplate](https://github.com/verekia/js-stack-boilerplate), et dans le [releases](https://github.com/verekia/js-Stack-from-scratch/releases). Il existe également une [démonstration en ligne](https://js-stack.herokuapp.com/).
 
-Works on Linux, macOS, and Windows.
+Fonctionne sous Linux, macOS et Windows.
 
-## Table of contents
+## Table des matières
 
 [01 - Node, Yarn, `package.json`](/tutorial/01-node-yarn-package-json.md#readme)
 
@@ -52,15 +53,23 @@ Works on Linux, macOS, and Windows.
 
 [09 - Travis, Coveralls, Heroku](/tutorial/09-travis-coveralls-heroku.md#readme)
 
-## Coming up next
+## À suivre
 
-Setting up your editor (Atom first), MongoDB, Progressive Web App.
+Configuration de votre éditeur (Atom en premier), MongoDB, Progressive Web App.
 
-## Translations
+## Traductions
 
-If you want to add your translation, please read the [translation recommendations](/how-to-translate.md) to get started!
+Si vous souhaitez ajouter votre traduction, veuillez lire les [recommandations de traduction](/ how-to-translate.md) pour commencer!
 
 ### V2
+
+#### Etat de la traduction :
+##### FAIT
+- README.me
+
+##### EN COURS
+
+##### A FAIRE
 
 Your link here soon ;)
 
@@ -68,14 +77,16 @@ Check out the [ongoing translations](https://github.com/verekia/js-stack-from-sc
 
 ### V1
 
-- [中文](https://github.com/pd4d10/js-stack-from-scratch) by [@pd4d10](http://github.com/pd4d10)
-- [Italiano](https://github.com/fbertone/js-stack-from-scratch) by [Fabrizio Bertone](https://github.com/fbertone)
-- [日本語](https://github.com/takahashim/js-stack-from-scratch) by [@takahashim](https://github.com/takahashim)
-- [Русский](https://github.com/UsulPro/js-stack-from-scratch) by [React Theming](https://github.com/sm-react/react-theming)
-- [ไทย](https://github.com/MicroBenz/js-stack-from-scratch) by [MicroBenz](https://github.com/MicroBenz)
+- [中文](https://github.com/pd4d10/js-stack-from-scratch) par [@pd4d10](http://github.com/pd4d10)
+- [Italiano](https://github.com/fbertone/js-stack-from-scratch) par [Fabrizio Bertone](https://github.com/fbertone)
+- [日本語](https://github.com/takahashim/js-stack-from-scratch) par [@takahashim](https://github.com/takahashim)
+- [Русский](https://github.com/UsulPro/js-stack-from-scratch) par [React Theming](https://github.com/sm-react/react-theming)
+- [ไทย](https://github.com/MicroBenz/js-stack-from-scratch) par [MicroBenz](https://github.com/MicroBenz)
 
-## Credits
+## Crédits
 
-Created by [@verekia](https://twitter.com/verekia) – [verekia.com](http://verekia.com/).
+Crée par [@verekia](https://twitter.com/verekia) – [verekia.com](http://verekia.com/).
+Traduit en Français (en cours) par [@AmauryVanEspen](https://github.com/AmauryVanEspen/).
 
-License: MIT
+
+Licence: MIT

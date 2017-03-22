@@ -65,7 +65,9 @@ Si vous souhaitez ajouter votre traduction, veuillez lire les [recommandations d
 
 #### Etat de la traduction :
 ##### FAIT
+"/"
 - README.me
+- how-to-translate.md
 
 ##### EN COURS
 

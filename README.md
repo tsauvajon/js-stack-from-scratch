@@ -70,10 +70,12 @@ Si vous souhaitez ajouter votre traduction, veuillez lire les [recommandations d
 ##### EN COURS
 
 ##### A FAIRE
+- Tout le reste
+(intégrer arborescence)
 
-Your link here soon ;)
+Votre lien ici bientôt ;)
 
-Check out the [ongoing translations](https://github.com/verekia/js-stack-from-scratch/issues/147).
+Consultez les [traductions en cours](https://github.com/verekia/js-stack-from-scratch/issues/147).
 
 ### V1
 

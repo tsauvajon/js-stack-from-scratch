@@ -59,7 +59,7 @@ Configuration de votre éditeur (Atom en premier), MongoDB, Progressive Web App.
 
 ## Traductions
 
-Si vous souhaitez ajouter votre traduction, veuillez lire les [recommandations de traduction](/ how-to-translate.md) pour commencer!
+Si vous souhaitez ajouter votre traduction, veuillez lire les [recommandations de traduction](/how-to-translate.md) pour commencer!
 
 ### V2
 

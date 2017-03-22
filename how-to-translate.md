@@ -1,24 +1,24 @@
-# How to translate this tutorial
+# Comment traduire ce tutoriel
 
-Thank you for your interest in translating my tutorial! Here are a few recommendations to get started.
+Merci de votre intérêt pour la traduction de mon didacticiel! Voici quelques recommandations pour commencer.
 
-This tutorial is in constant evolution to provide the best learning experience to readers. Both the code and `README.md` files will change over time. It is great if you do a one-shot translation that won't evolve, but it would be even better if you could try to keep up with the original English version as it changes!
+Ce tutoriel est en constante évolution pour offrir aux lecteurs la meilleure expérience d'apprentissage. Les fichiers `README.md` et le code changent avec le temps. C'est génial si vous faites une traduction d'un seul coup qui ne va pas évoluer, mais ce serait encore mieux si vous pouviez essayer de suivre la version anglaise d'origine comme elle change!
 
-Here is what I think is a good workflow:
+Voici ce que je pense être un bon workflow:
 
-- Check if there is already an [ongoing translation](https://github.com/verekia/js-stack-from-scratch/issues/147) for your language. If that's the case, get in touch with the folks who opened it and consider collaborating. All maintainers will be mentioned on the English repo, so team work is encouraged! You can open issues on their translation fork project to offer your help on certain chapters for instance.
+- Vérifiez s'il y a déjà une [traduction en cours](https://github.com/verekia/js-stack-from-scratch/issues/147) pour votre langue. Si c'est le cas, entrez en contact avec les gens qui l'ont ouvert et envisagez de collaborer. Tous les mainteneurs seront mentionnés sur le dépôt anglais, donc le travail d'équipe est encouragé! Vous pouvez ouvrir des questions sur leur projet 'fork' de traduction pour offrir votre aide sur certains chapitres par exemple.
 
-- Join the [Translations Gitter room](https://gitter.im/js-stack-from-scratch/Translations) if you're feeling chatty.
+- Rejoignez la salle [Traductions Gitter](https://gitter.im/js-stack-from-scratch/Translations) si vous vous sentez bavard.
 
-- Fork the main [English repository](https://github.com/verekia/js-stack-from-scratch).
+- 'Forkez' le principal [dépôt anglais](https://github.com/verekia/js-stack-from-scratch).
 
-- Post in [this issue](https://github.com/verekia/js-stack-from-scratch/issues/147) the language and URL of your forked repo.
+- Publier dans [ce numéro](https://github.com/verekia/js-stack-from-scratch/issues/147) la langue et l'URL de votre dépôt 'forké'.
 
-- Translate the `README.md` files.
+- Traduire les fichiers `README.md`.
 
-- Add a note somewhere explaining on the main `README.md` that this is a translation, with a link to the English repository. If you don't plan to make the translation evolve over time, you can maybe add a little note saying to refer to the English one for an up-to-date version of the tutorial. I'll leave that up to your preference.
+- Ajoutez une note expliquant sur le fichier `README.md` qu'il s'agit d'une traduction, avec un lien vers le dépôt Anglais. Si vous ne prévoyez pas de faire évoluer la traduction au fil du temps, vous pouvez peut-être ajouter une petite note disant de vous référer à l'anglais pour une version mise à jour du didacticiel. Je vais laisser cela à votre convenance.
 
-- Submit a Pull Request to the English repo to add a link to your forked repository under the Translations section of the main `README.md`. It could look like this:
+- Soumettez une 'Pull Request' au dépôt en anglais pour ajouter un lien vers votre 'fork' dans la section Traductions du fichier `README.md` principal. Il pourrait ressembler à ceci:
 
 ```md
 ## Translations
@@ -30,12 +30,12 @@ or
 - [Language](http://github.com/yourprofile/your-fork) by [@You](http://github.com/yourprofile)
 ```
 
-Since I want to reward you for your good work as much as possible, you can put any link you like on your name (to your personal website, Twitter profile, or Github profile for instance).
+Puisque je veux vous récompenser pour votre bon travail autant que possible, vous pouvez mettre tout lien que vous appréciez sur votre nom (référence à votre site personnel, profil de Twitter, ou profil Github par exemple).
 
-- After your original one-shot translation, if you want to update your repo with the latest change from the main English repo, [sync your fork](https://help.github.com/articles/syncing-a-fork/) with my repo. To make it easy to see what changed since your initial translation, you can use Github's feature to [compare commits](https://help.github.com/articles/comparing-commits-across-time/#comparing-commits). Set the **base** to the last commit from the English repo you used to translate, and compare it to **master**, like so:
+- Après votre traduction originale d'un seul jet, si vous souhaitez mettre à jour votre dépôt avec le dernier changement du dépôt principal en anglais, [synchronisez votre fork](https://help.github.com/articles/syncing-a-fork/) avec mon dépôt. Pour faciliter la visualisation de ce qui a changé depuis votre traduction initiale, vous pouvez utiliser la fonctionnalité de Github pour [comparer les commits] (https://help.github.com/articles/comparing-commits-across-time/#comparing-commits). Définissez ** base ** sur le dernier commit du dépôt Anglais que vous avez utilisé pour traduire et comparez-le au ** master **, comme suit:
 
 <!-- markdownlint-disable MD034 -->
 https://github.com/verekia/js-stack-from-scratch/compare/c65dfa65d02c21063d94f0955de90947ba5273ad...master
 <!-- markdownlint-enable MD034 -->
 
-That should give you a easy-to-read diff to see exactly what changed in `README.md` files since your translation!
+Cela devrait vous donner un `diff` facile à lire pour voir exactement ce qui a changé dans les fichiers `README.md` depuis votre traduction!

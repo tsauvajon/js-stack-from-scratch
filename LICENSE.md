@@ -1,4 +1,4 @@
-# MIT License
+# Licence MIT
 
 Copyright (c) 2017 Jonathan Verrecchia
 

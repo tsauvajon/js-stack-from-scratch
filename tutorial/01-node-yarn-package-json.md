@@ -32,7 +32,7 @@ NPM est le gestionnaire de paquets par défaut pour Node. Il est installé autom
 
 Depuis sa [sortie](https://code.facebook.com/posts/1840075619545360) en octobre 2016, il a reçu une adoption très rapide et pourrait bientôt devenir le gestionnaire de paquets de choix de la communauté JavaScript. Si vous souhaitez adhérer à NPM, vous pouvez simplement remplacer toutes les instructions `yarn add` et `thread-add -dev` de ce tutoriel par `npm install --save` et `npm install --save-dev`.
 
-Installez Yarn en suivant les [instructions](https://yarnpkg.com/en/docs/install) pour votre système d'exploitation. Je vous recommande d'utiliser le **Script d'installation** à partir de l'onglet *Alternatives* si vous êtes sur MacOS ou Unix, pour [éviter](https://github.com/yarnpkg/yarn/issues/1505) en utilisant un autre gestionnaire de paquets :
+Installez Yarn en suivant les [instructions](https://yarnpkg.com/en/docs/install) pour votre système d'exploitation. Je vous recommande d'utiliser le **Script d'installation** à partir de l'onglet *Alternatives* si vous êtes sur MacOS ou Unix, pour [éviter](https://github.com/yarnpkg/yarn/issues/1505) de vous appuyer sur un autre gestionnaire de paquets :
 
 ```sh
 curl -o- -L https://yarnpkg.com/install.sh | bash

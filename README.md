@@ -21,13 +21,13 @@ Bienvenue dans mon didacticiel moderne pour la pile JavaScript: **JavaScript Sta
 
 > 🎉 **Ceci est la version V2 de ce didacticiel, des changements majeurs sont apparus depuis la version 2016. Vérifiez le [Log de suivi des changement](/CHANGELOG.md)!**
 
-Il s'agit d'un guide direct pour le montage d'une pile JavaScript. Il nécessite une certaine connaissance de programmation générale et des bases de JavaScript. ** Il se concentre sur les outils d'interconnexion entre technologies ** et vous fournis l' ** exemple le plus simple possible ** pour chaque outil. Vous pouvez voir ce didacticiel comme * un moyen d'écrire votre propre modèle à partir de zéro *. Étant donné que le but de ce didacticiel est de rassembler divers outils, je n'entre pas dans les détails sur la façon dont ces outils fonctionnent individuellement. Reportez-vous à leur documentation ou trouvez d'autres didacticiels si vous souhaitez acquérir une connaissance plus approfondie de chacun d'eux.
+Il s'agit d'un guide direct pour le montage d'une pile JavaScript. Il nécessite une certaine connaissance de programmation générale et des bases de JavaScript. **Il se concentre sur les outils d'interconnexion entre technologies** et vous fournis l' **exemple le plus simple possible** pour chaque outil. Vous pouvez voir ce didacticiel comme *un moyen d'écrire votre propre modèle à partir de zéro*. Étant donné que le but de ce didacticiel est de rassembler divers outils, je n'entre pas dans les détails sur la façon dont ces outils fonctionnent individuellement. Reportez-vous à leur documentation ou trouvez d'autres didacticiels si vous souhaitez acquérir une connaissance plus approfondie de chacun d'eux.
 
-Vous n'avez pas besoin d'utiliser cette pile entière si vous construisez une page Web simple avec quelques interactions JS bien sûr (une combinaison de Browserify / Webpack + Babel + jQuery est suffisante pour pouvoir écrire le code ES6 dans différents fichiers), mais Si vous voulez construire une application Web qui évolue, et que vous avez besoin d'aide pour configurer les choses, ce didacticiel fonctionnera très bien pour vous.
+Vous n'avez pas besoin d'utiliser cette pile entière si vous construisez une page Web simple avec quelques interactions JS bien sûr (une combinaison de Browserify / Webpack + Babel + jQuery est suffisante pour pouvoir écrire le code ES6 dans différents fichiers), mais si vous voulez construire une application Web qui évolue, et que vous avez besoin d'aide pour configurer les choses, ce didacticiel fonctionnera très bien pour vous.
 
-Un gros morceau de la pile décrit dans ce didacticiel utilise React. Si vous commencez et que vous voulez juste apprendre React, [create-react-app](https://github.com/facebookincubator/create-react-app) vous mettra en route avec un environnement React très rapidement et avec un pré-configuration. Je recommanderais par exemple cette approche à quelqu'un qui arrive dans une équipe qui utilise React et a besoin de rattraper au travers d'un terrain de jeu d'apprentissage. Dans ce didacticiel, vous n'utiliserez pas de configuration pré-faite, car je veux que vous compreniez tout ce qui se passe sous le capot.
+Un gros morceau de la pile décrit dans ce didacticiel utilise React. Si vous commencez et que vous voulez juste apprendre React, [create-react-app](https://github.com/facebookincubator/create-react-app) vous mettra en route avec un environnement React très rapidement et avec une pré-configuration. Je recommanderais par exemple cette approche à quelqu'un qui arrive dans une équipe qui utilise React et a besoin de rattraper au travers d'un terrain de jeu d'apprentissage. Dans ce didacticiel, vous n'utiliserez pas de configuration pré-faite, car je veux que vous compreniez tout ce qui se passe sous le capot.
 
-Des exemples de code sont disponibles pour chaque chapitre, et vous pouvez tous les exécuter avec `yarn && yarn start`. Cependant je recommande d'écrire tout à partir de zéro vous-même en suivant les ** instructions étape-par-étape **.
+Des exemples de code sont disponibles pour chaque chapitre, et vous pouvez tous les exécuter avec `yarn && yarn start`. Cependant je recommande d'écrire tout à partir de zéro vous-même en suivant les **instructions étape-par-étape**.
 
 Le code final est disponible dans le [Référentiel JS-Stack-Boilerplate](https://github.com/verekia/js-stack-boilerplate), et dans le [releases](https://github.com/verekia/js-Stack-from-scratch/releases). Il existe également une [démonstration en ligne](https://js-stack.herokuapp.com/).
 
@@ -77,7 +77,8 @@ les fichiers marqués par une "*" ne seront pas traduits, ni le fichiers contena
 - mdlint.js*
 - package.json*
 - yarn.lock*
-
+- /tutorial
+  - 01-node-yarn-package-json.md
 
 ##### EN COURS
 - CHANGELOG.md
@@ -85,7 +86,6 @@ les fichiers marqués par une "*" ne seront pas traduits, ni le fichiers contena
 
 ##### A FAIRE
 - /tutorial
-  - 01-node-yarn-package-json.md
   - 02-babel-es6-eslint-flow-jest-husky.md
   - 03-express-nodemon-pm2.md
   - 04-webpack-react-hmr.md
@@ -109,7 +109,7 @@ Consultez les [traductions en cours](https://github.com/verekia/js-stack-from-sc
 
 ## Crédits
 
-Crée par [@verekia](https://twitter.com/verekia) – [verekia.com](http://verekia.com/).
+Créé par [@verekia](https://twitter.com/verekia) – [verekia.com](http://verekia.com/).
 Traduit en Français (en cours) par [@AmauryVanEspen](https://github.com/AmauryVanEspen/).
 
 

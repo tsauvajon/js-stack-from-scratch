@@ -8,7 +8,7 @@ Dans cette section, nous configurons Node, Yarn, un fichier `package.json` basiq
 
 > 💡 **[Node.js](https://nodejs.org/)** est un environnement d'exécution JavaScript. Il est principalement utilisé pour le développement Back-End, mais aussi pour les scripts généraux. Dans le contexte du développement de Front-End, il peut être utilisé pour exécuter tout un tas de tâches telles que lintage, test et assemblage de fichiers.
 
-Nous utiliserons Node pour tout dans ce tutoriel, donc vous en aurez besoin. Aller à la [page de téléchargement](https://nodejs.org/en/download/current/) pour **macOS** ou **Windows** binaires, ou le [page des installations du gestionnaire de paquets](https://nodejs.org/en/download/package-manager/) pour les distributions Linux
+Nous utiliserons Node pour tout dans ce tutoriel, donc vous en aurez besoin. Rendez vous sur la [page de téléchargement](https://nodejs.org/en/download/current/) pour **macOS** ou binaires **Windows**, ou sur la [page des installations du gestionnaire de paquets](https://nodejs.org/en/download/package-manager/) pour les distributions Linux.
 
 Par exemple, sur ** Ubuntu / Debian **, vous exécuteriez les commandes suivantes pour installer Node :
 
@@ -32,7 +32,7 @@ NPM est le gestionnaire de paquets par défaut pour Node. Il est installé autom
 
 Depuis sa [sortie](https://code.facebook.com/posts/1840075619545360) en octobre 2016, il a reçu une adoption très rapide et pourrait bientôt devenir le gestionnaire de paquets de choix de la communauté JavaScript. Si vous souhaitez adhérer à NPM, vous pouvez simplement remplacer toutes les instructions `yarn add` et `thread-add -dev` de ce tutoriel par `npm install --save` et `npm install --save-dev`.
 
-Installez Yarn en suivant les [instructions](https://yarnpkg.com/en/docs/install) pour votre système d'exploitation. Je vous recommande d'utiliser le ** Script d'installation ** à partir de l'onglet * Alternatives * si vous êtes sur MacOS ou Unix, pour [éviter](https://github.com/yarnpkg/yarn/issues/1505) en utilisant un autre gestionnaire de paquets :
+Installez Yarn en suivant les [instructions](https://yarnpkg.com/en/docs/install) pour votre système d'exploitation. Je vous recommande d'utiliser le **Script d'installation** à partir de l'onglet *Alternatives* si vous êtes sur MacOS ou Unix, pour [éviter](https://github.com/yarnpkg/yarn/issues/1505) en utilisant un autre gestionnaire de paquets :
 
 ```sh
 curl -o- -L https://yarnpkg.com/install.sh | bash
@@ -40,7 +40,7 @@ curl -o- -L https://yarnpkg.com/install.sh | bash
 
 ## `package.json`
 
-> 💡 **[package.json](https://yarnpkg.com/en/docs/package-json)** est le fichier utilisé pour décrire et configurer votre projet JavaScript. Il contient des informations générales (le nom de votre projet, la version, les contributeurs, la licence, etc.), les options de configuration pour les outils que vous utilisez, et même une section pour exécuter des * tâches *.
+> 💡 **[package.json](https://yarnpkg.com/en/docs/package-json)** est le fichier utilisé pour décrire et configurer votre projet JavaScript. Il contient des informations générales (le nom de votre projet, la version, les contributeurs, la licence, etc.), les options de configuration pour les outils que vous utilisez, et même une section pour exécuter des *tâches*.
 
 - Créez un nouveau dossier de travail, et entrez dedans avec `cd`.
 - Exécutez `yarn init` et répondez aux questions (`yarn init -y` pour ignorer toutes les questions), pour générer automatiquement un fichier` package.json`.
@@ -61,7 +61,7 @@ Créez un fichier `index.js` contenant` console.log ('Hello world')`
 
 🏁 Exécutez `node .` dans ce répertoire (`index.js`est le fichier par défaut pour lequel Node recherche dans un dossier). Il devrait afficher "Hello world".
 
-**Note**: Voyez-vous 🏁 drapeau de course emoji? Je l'utiliserai chaque fois que vous atteignez un ** point de contrôle **. Nous allons parfois faire beaucoup de changements dans une rangée, et votre code peut ne pas fonctionner jusqu'à ce que vous atteigniez le prochain point de contrôle.
+**Note**: Voyez-vous 🏁 drapeau de course emoji? Je l'utiliserai chaque fois que vous atteignez un **point de contrôle**. Nous allons parfois faire beaucoup de changements dans une rangée, et votre code peut ne pas fonctionner jusqu'à ce que vous atteigniez le prochain point de contrôle.
 
 ## `start` script
 
@@ -80,7 +80,7 @@ Exécuter `node .` pour exécuter notre programme est un peu trop bas niveau. No
 }
 ```
 
-`Start` est le nom que nous donnons à la * tâche * qui exécutera notre programme. Nous allons créer beaucoup de tâches différentes dans cet objet `scripts` tout au long de ce tutoriel. `Start` est généralement le nom donné à la tâche par défaut d'une application. D'autres noms de tâches standard sont `stop` et `test`.
+`Start` est le nom que nous donnons à la *tâche* qui exécutera notre programme. Nous allons créer beaucoup de tâches différentes dans cet objet `scripts` tout au long de ce tutoriel. `Start` est généralement le nom donné à la tâche par défaut d'une application. D'autres noms de tâches standard sont `stop` et `test`.
 
 `package.json` doit être un fichier JSON valide, ce qui signifie que vous ne pouvez pas avoir de virgule finale. Faites attention lors de l'édition manuelle de votre fichier `package.json`. 🏁 Exécutez `yarn start`. Il devrait imprimer `Hello world`.
 
@@ -111,7 +111,7 @@ Un dossier `node_modules` a été créé pour stocker le paquet.
 
 - Ajoutez `node_modules/` à votre `.gitignore`
 
-Vous remarquerez également qu'un fichier `yarn.lock` a été généré par Yarn. Vous devez 'commiter' ce fichier à votre dépôt, car cela garantira que tous les membres de votre équipe utilisent la même version de vos paquets. Si vous êtes en train de d'utiliser NPM au lieu de Yarn, l'équivalent de ce fichier est * shrinkwrap *.
+Vous remarquerez également qu'un fichier `yarn.lock` a été généré par Yarn. Vous devez 'commiter' ce fichier à votre dépôt, car cela garantira que tous les membres de votre équipe utilisent la même version de vos paquets. Si vous êtes en train de d'utiliser NPM au lieu de Yarn, l'équivalent de ce fichier est *shrinkwrap*.
 
 - Ecrivez ce qui suit dans votre `index.js` :
 

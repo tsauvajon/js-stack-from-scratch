@@ -10,7 +10,7 @@ Dans cette section, nous configurons Node, Yarn, un fichier `package.json` basiq
 
 Nous utiliserons Node pour tout dans ce tutoriel, donc vous en aurez besoin. Rendez vous sur la [page de téléchargement](https://nodejs.org/en/download/current/) pour **macOS** ou binaires **Windows**, ou sur la [page des installations du gestionnaire de paquets](https://nodejs.org/en/download/package-manager/) pour les distributions Linux.
 
-Par exemple, sur ** Ubuntu / Debian **, vous exécuteriez les commandes suivantes pour installer Node :
+Par exemple, sur **Ubuntu / Debian**, vous exécuteriez les commandes suivantes pour installer Node :
 
 ```sh
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
